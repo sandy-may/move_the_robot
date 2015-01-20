@@ -49,9 +49,21 @@ def corridor():
 
         global flag
         flag = False
+        
+        move(-2.0, 0.0)
+        flag = False
+        
+        move(1.5, 0.0)
+        flag = False
+       
         #move 1.5 meteres forward
         move(-1.0, 0.0)
+        flag = False
         
+        move(-0.5, 0.66)
+        flag = False
+        
+        move(0.0, 1.33)
         flag = False
         #move 1.5 meteres forward and 2 meteres left diagonally
         move(0.5, 2.0)
